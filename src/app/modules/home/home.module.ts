@@ -8,6 +8,7 @@ import { TodoListComponent } from './components/header/todo-list/todo-list.compo
 
 //Page
 import { HomeComponent } from './pages/home/home.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,7 +21,8 @@ import { HomeComponent } from './pages/home/home.component';
     HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class HomeModule { }
